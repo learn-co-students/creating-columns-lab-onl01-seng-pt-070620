@@ -51,31 +51,21 @@ img:hover {
 /* create your tile classes! we recommend .small .med .large */
 
 .column {
-  display: grid;
-  width: 100%;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  display: inline-block; 
+  width: 30%;
 }
 
 .small {
-  width: 75%;
-  height: 75%;
-  grid-column-start: auto;
-  grid-column-end: auto;
-  grid-row-start: auto;
-  grid-row-end: auto;
+  width: 100%;
+  height: 100%;
 }
 
 .med {
-  grid-column-start: auto;
-  grid-column-end: auto;
-  grid-row-start: auto;
-  grid-row-end: auto;
+  width: 203%;
+  height: 203%;
 }
 
 .large {
-  grid-column-start: auto;
-  grid-column-end: auto;
-  grid-row-start: auto;
-  grid-row-end: auto;
+  width: 300%;
+  height: 300%;
 }
